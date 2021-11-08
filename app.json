@@ -23,6 +23,11 @@
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
+                "DATABASE_URL": {
+            "description": "fill with the mongodb url you get from cloud.mongodb.com",
+            "required": true,
+            "value": ""
+                },
        "DURATION_LIMIT": {
             "description": "Maximum Duration For Song",
             "required": true,
