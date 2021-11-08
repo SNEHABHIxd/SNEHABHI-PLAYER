@@ -23,3 +23,11 @@ STRING_SESSION = getenv("SESSION_NAME", "session")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2070154667").split()))
 DATABASE_URL = os.environ.get("DATABASE_URL")
+
+U_BRANCH = "main"
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+UPSTREAM_REPO = os.environ.get(
+    "UPSTREAM_REPO", "https://github.com/SNEHABHIxd/SNEHABHI_PLAYER"
+)
+HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
