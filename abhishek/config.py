@@ -1,6 +1,8 @@
 import os
 from os import getenv
 from dotenv import load_dotenv
+from abhishek.snehabhi.uptools import fetch_heroku_git_url
+
 
 if os.path.exists("local.env"):
     load_dotenv("local.env")
@@ -20,3 +22,4 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
 STRING_SESSION = getenv("SESSION_NAME", "session")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2070154667").split()))
+DATABASE_URL = os.environ.get("DATABASE_URL")
