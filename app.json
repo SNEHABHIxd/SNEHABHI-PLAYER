@@ -1,0 +1,48 @@
+{
+    "name": "SNEHABHI MUSIC PLAYER",
+    "logo": "https://te.legra.ph/file/103a5208bb1698a8b33de.jpg",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/SNEHABHIxd/SNEHABHI-PLAYER",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your App Hash",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Put Bot Username Without @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Put Bot Token Of Your Bot",
+            "required": true
+        },
+       "DURATION_LIMIT": {
+            "description": "Maximum Duration For Song",
+            "required": true,
+            "value": "15"
+        },
+        "STRING_SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Put Your User ID (Separted By Space)",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
