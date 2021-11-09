@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from abhishek.Client.callsmusic import client as abhi
+from abhishek.client.callsmusic import client as abhi
 from abhishek.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast"]))
