@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyrogram.types import Message
 
-from config import BOT_USERNAME
+from abhishek import config
 from abhishek.snehabhi.filters import command
 from abhishek.snehabhi.get_file_id import get_file_id
 
