@@ -19,7 +19,7 @@ def on_stream_end(chat_id: int) -> None:
     if queues.is_empty(chat_id):
         await pytgcalls.leave_group_call(chat_id)
     else:
-        await pytgcalls.change_stream(
+        pytgcalls.change_stream(
             chat_id, queues.get(chat_id)["file"])
             
         
