@@ -2,7 +2,7 @@ import requests
 from pyrogram import idle
 from pyrogram import Client as Bot
 
-from abhishek.Client.callsmusic import run
+from abhishek.client.callsmusic import run
 from abhishek.config import API_ID, API_HASH, BOT_TOKEN, BG_IMAGE
 
 response = requests.get(BG_IMAGE)
