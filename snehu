@@ -1,4 +1,4 @@
-pyrogram
+
 tgcrypto
 py-tgcalls==0.5.5
 python-dotenv
@@ -16,7 +16,7 @@ psutil
 wget
 motor
 dnspython
-yt-dlp
+git+https://github.com/yt-dlp/yt-dlp@master
 httpx==0.13.3
 heroku3
 gitpython
