@@ -1,5 +1,5 @@
 from abhishek import rohit
-from abhishek.config import API_HASH, API_ID, SESSION_SESSION
+from abhishek import config
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
