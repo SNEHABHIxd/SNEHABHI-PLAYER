@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pymongo import MongoClient
-from config import BOT_USERNAME, DATABASE_URL as db_url
+from abhishek.config import BOT_USERNAME, DATABASE_URL as db_url
 from abhishek.snehabhi.filters import command, other_filters
 from abhishek.snehabhi.decorators import sudo_users_only
 
