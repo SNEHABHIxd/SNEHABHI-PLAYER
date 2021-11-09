@@ -8,8 +8,8 @@ from pyrogram.errors import UserAlreadyParticipant
 from abhishek import rohit
 from abhishek import abhi
 from abhishek.cache.admins import set
-from abhishek.Client import callsmusic, queues
-from abhishek.Client.callsmusic import client as USER
+from abhishek.client import callsmusic, queues
+from abhishek.client.callsmusic import client as USER
 from abhishek.snehabhi.admins import get_administrators
 import requests
 import aiohttp
