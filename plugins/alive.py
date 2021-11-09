@@ -71,7 +71,8 @@ async def start(client: Client, message: Message):
                     InlineKeyboardButton(
                         "💥 𝙹𝙾𝙸𝙽 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💞", url=f"https://t.me/SNEHABHI_SERVER")
                 ,
-                        "💥 𝙹𝙾𝙸𝙽 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 💞", url=f"https://t.me/SNEHABHI_UPDATES")
+                    InlineKeyboardButton( 
+                    "💥 𝙹𝙾𝙸𝙽 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 💞", url=f"https://t.me/SNEHABHI_UPDATES")
                 ],[
                   
                    InlineKeyboardButton(
