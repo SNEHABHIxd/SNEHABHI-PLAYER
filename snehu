@@ -21,4 +21,4 @@ httpx==0.13.3
 heroku3
 gitpython
 pymongo
-git+https://github.com/SNEHABHIxd/pyrogram@master
+git+https://github.com/pyrogram/pyrogram@master
