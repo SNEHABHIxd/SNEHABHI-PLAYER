@@ -1,11 +1,11 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
-from pytgcalls.types import Update
-from pytgcalls.types.input_stream import InputAudioStream
+
+
 
 from abhishek.config import API_HASH, API_ID, STRING_SESSION
 
-from . import queues
+from abhishek.client.queues import queues
 
 client = Client(STRING_SESSION, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
